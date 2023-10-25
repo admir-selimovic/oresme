@@ -1,6 +1,4 @@
 bin/
 notes.txt
-src/cpp/eigen
-src/cpp/libigl
-src/cpp/vcpkg
 src/notebooks
+data/*
