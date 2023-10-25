@@ -68,7 +68,7 @@ void traverseAndProcess(const fs::path& dirPath) {
 
 int main(int argc, char* argv[]) {
     // Get the path of the main folder from the command line or use a default value
-    const fs::path mainFolder = (argc > 1) ? argv[1] : "C:/Users/Admir Selimovic/glypta/data/raw";
+    const fs::path mainFolder = (argc > 1) ? argv[1] : "../data/raw";
     traverseAndProcess(mainFolder);
     return 0;
 }

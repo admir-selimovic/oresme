@@ -6,11 +6,11 @@
             "command": "${env:MINGW_PATH}\\g++.exe",
             "args": [
                 "-std=c++17",
-                "${workspaceFolder}\\src\\cpp/main.cpp",
-                "${workspaceFolder}\\src\\cpp\\isotropic_remeshing.cpp",
-                "${workspaceFolder}\\src\\cpp\\mesh_smoothing.cpp",
-                "${workspaceFolder}\\src\\cpp\\curvature.cpp",
-                "${workspaceFolder}\\src\\cpp\\triangulation.cpp",
+                "${workspaceFolder}\\src\\main.cpp",
+                "${workspaceFolder}\\src\\isotropic_remeshing.cpp",
+                "${workspaceFolder}\\src\\mesh_smoothing.cpp",
+                "${workspaceFolder}\\src\\curvature.cpp",
+                "${workspaceFolder}\\src\\triangulation.cpp",
                 "-I",
                 "${env:CGAL_PATH}\\include", 
                 "-I",
@@ -36,7 +36,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "-o",
-                "glypta-curvature.exe"
+                "oresme.exe"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
